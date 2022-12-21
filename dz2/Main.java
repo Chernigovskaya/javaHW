@@ -44,7 +44,7 @@ public class Main {
      */
 
     public static void zadacha2(){
-        Logger logger = Logger.getLogger(org.example.dz1.Main.class.getName());
+        Logger logger = Logger.getLogger(dz1.Main.class.getName());
         try {
             FileHandler fh = new FileHandler("fileLog.txt");
             logger.addHandler(fh);
